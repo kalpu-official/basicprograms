@@ -25,6 +25,7 @@ public class Swapping
         Console.ReadLine();
 
     }
+    //Write a c# program to print fibonacci series without using recursion and using recursion.
     private static void fibonnaci(int num)
     {
         int a = 0, b = 1, c = 0;
@@ -37,6 +38,7 @@ public class Swapping
             b = c;
         }
     }
+    //Write a c# program to check prime number.
     private static void primenumber(int p)
     {
         int a = 0;
@@ -52,7 +54,7 @@ public class Swapping
                 Console.Write(" it is a prime number ", p);
         }
     }
-
+    //Write a c# program to print sum of digits.
     private static void sumofdigit(int num)
     {
         int sum = 0;
@@ -63,6 +65,7 @@ public class Swapping
         }
         Console.WriteLine(sum);
     }
+    //Write a c# program to swap two numbers without using third variable.
     private static void swapping(int a, int b)
     {
         int n = 0, j = 0, temp;
@@ -74,6 +77,7 @@ public class Swapping
         Console.Write(n + b);
         Console.Write(j + a);
     }
+    //Write a c# program to print factorial of a number.
     private static void factorial(int q)
     {
         int i, f = 1;
@@ -81,8 +85,8 @@ public class Swapping
             f = f * i;
         Console.Write("The Factorial of {0} is: {1}", q, f);
     }
+    //Write a c# program to reverse given number.
     private static void reverse(int a)
-
     {
         int i, j = 0;
         while (a > 1)
@@ -93,6 +97,7 @@ public class Swapping
         }
         Console.Write("number in reverse order", +j);
     }
+    //Write a c# program to swap two numbers without using third variable.
     private static void swap_two_var(int a, int b)
 
     {
@@ -108,6 +113,7 @@ public class Swapping
         Console.WriteLine(b.ToString());
         Console.ReadLine();
     }
+    //Write a c# program to convert decimal number to binary.
     private static void dectobin(int n)
     {
         int i;
@@ -123,6 +129,7 @@ public class Swapping
             Console.Write(a[i]);
         }
     }
+    //Write a c# program to check armstrong number.
     private static void armstrong(int p)
     {
         int val=1, sum = 0; int rem;
@@ -141,6 +148,7 @@ public class Swapping
             Console.Write("Not an Armstrong Number",p);
         }
     }
+    //Write a c# program to check palindrome number.
     private static void Palindrome(int p)
     {      int r, sum = 0, temp;
 
